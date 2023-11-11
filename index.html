@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#1B1924"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>We are the Champions</title>
+</head>
+<body>
+
+<div class="container">
+    <img src="images/freddie.png" alt="illustration of Freddie Mercury on stage holding a microphone stand and raising his fist">
+    <h1>We are the Champions</h1>
+    <textarea id="textarea-field" name="textarea-field" rows="5" cols="28" placeholder="Write your endorsement here"></textarea>
+    <div class="input-container">
+        <input type="text" id="input-field-from" placeholder="From" />
+        <input type="text" id="input-field-to" placeholder="To" />
+    </div>
+    <button type="button" id="publish-btn" class="publish-btn">Publish</button>
+    <h2>- Endorsements -</h2>
+    <ul id="endorsement-list"></ul>
+</div>
+
+<script src="functions.js" type="module"></script>
+<script src="script.js" type="module"></script>
+</body>
+</html>

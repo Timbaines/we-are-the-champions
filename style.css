@@ -1,0 +1,190 @@
+html, body {
+    background-color: #1B1924;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Inter', 'Josefin Sans', sans-serif;
+
+}
+
+/*********** TYPOGRAPHY ***********/
+h1 {
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #1b1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+p {
+    color: #1b1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 12px 0;
+}
+
+
+img {
+    height: 90px;
+    margin: 0 auto;
+}
+
+/*********** COMPONENTS ***********/
+
+/* Event Listener Button */
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+.publish-btn {
+    background-color: #28a9f1;
+    border-radius: 8px;
+    color: #04131c;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.publish-btn:hover {
+    background-color: #2498D8;
+    cursor: pointer;
+}
+
+.like-btn {
+    color: #1b1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*********** LAYOUT ***********/
+.container {
+    background-color: #1B1924;
+    margin: 0 auto;
+    padding: 50px 30px;
+    text-align: center;
+    max-width: 390px;
+}
+
+textarea {
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    color: #8f8f8f;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    width: calc(100% - 15px);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.input-container input {
+    width: calc(50% - 5px);
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #8f8f8f;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/*********** LAYOUT | Endorsements ***********/
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+#endorsement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#endorsement-list li {
+    background-color: #ffffff;
+    color: #1b1924;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/***** LAYOUT | Endorsement List & Likes *****/
+.meta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.no-items {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.likes-counter {
+    color: #1b1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
